@@ -9,16 +9,20 @@ To identify and analyze successful and failed login attempts using system securi
 ## Tools Used
 - Windows Event Viewer
 
+## Incident Scenario
+A user generated multiple failed login attempts followed by a successful login to simulate suspicious authentication behavior. Security logs were analyzed to identify the events and review authentication details.
+
 ## What I Did
 - Accessed and navigated system security logs
 - Identified login-related events (Event ID 4624 and 4625)
 - Simulated failed login attempts
 - Analyzed event details such as timestamps, user accounts, and logon types
 
-## Key Findings
-- Detected multiple failed login attempts followed by a successful login
-- Observed how login attempts are recorded and tracked in system logs
-- Observed multiple failed authentication attempts followed by a successful login event, demonstrating how security logs can be used to monitor and investigate authentication activity.
+## Security Findings
+- Identified multiple failed login attempts (Event ID 4625)
+- Confirmed successful authentication events (Event ID 4624)
+- Observed how Windows records authentication activity in security logs
+- Demonstrated basic log analysis and event investigation workflow
 
 ## Screenshots
 ![Security Logs](security-log-overview.png)
