@@ -1,4 +1,4 @@
-# Security Log Analysis Project
+# Windows Authentication Log Analysis
 
 ## Overview
 This project demonstrates basic security monitoring and log analysis using system event logs.
